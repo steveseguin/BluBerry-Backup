@@ -2,6 +2,9 @@
 
 This Python script organizes media files (images and videos) from a source directory into optimized "discs" based on a specified maximum size. It also generates HTML galleries for each disc with features like thumbnail generation, slideshows, and more.
 
+<img src="https://github.com/user-attachments/assets/856ef19e-c5da-4e76-b80d-cf8736903f2e" height="200px" />
+
+
 ## Features
 
 - **Media Organization**: Packs media files into discs without exceeding the maximum size.
