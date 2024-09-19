@@ -40,7 +40,9 @@ The required packages are:
 - **FFmpeg**: Used for video thumbnail generation and as a fallback for RAW image thumbnails.
 - **ExifTool**: Used for extracting metadata from media files.
 
-Ensure that both `ffmpeg` and `exiftool` are installed and added to your system's PATH so that they can be called from the command line.
+Ensure that both `ffmpeg` and `exiftool` are installed and added to your system's PATH so that they can be called from the command line. If on windows, they should be called `ffmpeg.exe` and `exiftool.exe`, and I just include them in the same folder as the Python script we intend to run.
+
+![image](https://github.com/user-attachments/assets/06acb7b2-71e0-4612-a350-23121087d347)
 
 #### Installing FFmpeg
 
