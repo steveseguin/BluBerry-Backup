@@ -1,4 +1,4 @@
-# Media Organizer and Gallery Generator
+# Creates beautifully simple archival photo albumns that fit on Blu-ray discs
 
 This Python script organizes media files (images and videos) from a source directory into optimized "discs" based on a specified maximum size. It also generates HTML galleries for each disc with features like thumbnail generation, slideshows, and more.
 
@@ -8,7 +8,7 @@ This Python script organizes media files (images and videos) from a source direc
 
 - **Media Organization**: Packs media files into discs without exceeding the maximum size.
 - **Album Segmentation**: Splits large albums into smaller segments to fit disc constraints.
-- **Optimized for Google Photos exports**: Uses and stores the meta data available within Google Takeout photo exports.
+- **Optimized for Google Photos exports**: Uses the meta data available within Google Takeout photo exports.
 - **Thumbnail Generation**: Creates thumbnails for images and videos, including support for RAW image formats.
 - **HTML Gallery Generation**: Generates an interactive HTML gallery for each disc with:
   - Lazy loading of images.
