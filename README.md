@@ -119,6 +119,7 @@ python script.py /path/to/source /path/to/destination
 3. **Disc Packing Optimization**:
    - Organizes media files into discs without exceeding the maximum size
      - The default packing size targets 23.2 GB, which will safely fill a standard 25 GB BD-R disc.
+     - The target packing size can be changed at a code level with little fuss, if needed.
    - Prioritizes filling discs to at least 90% capacity, so not to split albums too aggressively
 
 4. **File Processing**:
