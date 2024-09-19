@@ -1,4 +1,4 @@
-# Creates beautifully simple archival photo albumns that fit on Blu-ray discs
+# Creates beautifully simple archival photo albums that fit on Blu-ray discs
 
 This Python script organizes media files (images and videos) from a source directory into optimized "discs" based on a specified maximum size. It also generates HTML galleries for each disc with features like thumbnail generation, slideshows, and more.
 
