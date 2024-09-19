@@ -105,7 +105,7 @@ python script.py /path/to/source /path/to/destination
 - Each disc will contain media files organized into albums, along with an `index.html` file for the gallery.
 - A `processed_files.log` file will be created in the destination directory, logging all successful operations.
 - If errors occur, error logs like `error_log_disc_1.txt` will be generated in the destination directory.
-- It make take hours to process 100 GB on an average computer, and potentially days if dealing terabytes of data.
+- It make take hours to process 100 GB on an average computer, and potentially days if dealing with terabytes of data.
 
 ## How It Works
 
