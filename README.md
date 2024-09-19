@@ -19,9 +19,9 @@ This Python script organizes media files (images and videos) from a source direc
 - **Hash Manifest Creation**: Generates a `hash_manifest.json` file for each directory for integrity checks.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8631c85f-1b43-476f-bc77-81626e856aa8" height="200px" />
-  <img src="https://github.com/user-attachments/assets/ad5099f5-f57e-495c-afc2-fd76348783ac" height="200px" />
-  <img src="https://github.com/user-attachments/assets/5fdb3991-de7f-475e-a04d-f105d515860e" height="200px" />
+  <img src="https://github.com/user-attachments/assets/8631c85f-1b43-476f-bc77-81626e856aa8" height="180px" />
+  <img src="https://github.com/user-attachments/assets/ad5099f5-f57e-495c-afc2-fd76348783ac" height="180px" />
+  <img src="https://github.com/user-attachments/assets/5fdb3991-de7f-475e-a04d-f105d515860e" height="180px" />
 </p>
 
 ## Requirements
