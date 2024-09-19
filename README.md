@@ -6,6 +6,7 @@ This Python script organizes media files (images and videos) from a source direc
 
 - **Media Organization**: Packs media files into discs without exceeding the maximum size.
 - **Album Segmentation**: Splits large albums into smaller segments to fit disc constraints.
+- **Optimized for Google Photos exports**: Uses and stores the meta data available within Google Takeout photo exports.
 - **Thumbnail Generation**: Creates thumbnails for images and videos, including support for RAW image formats.
 - **HTML Gallery Generation**: Generates an interactive HTML gallery for each disc with:
   - Lazy loading of images.
@@ -14,6 +15,12 @@ This Python script organizes media files (images and videos) from a source direc
   - Keyboard navigation support.
   - Video playback with fallback for unsupported formats.
 - **Hash Manifest Creation**: Generates a `hash_manifest.json` file for each directory for integrity checks.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8631c85f-1b43-476f-bc77-81626e856aa8" height="200px" />
+  <img src="https://github.com/user-attachments/assets/ad5099f5-f57e-495c-afc2-fd76348783ac" height="200px" />
+  <img src="https://github.com/user-attachments/assets/5fdb3991-de7f-475e-a04d-f105d515860e" height="200px" />
+</p>
 
 ## Requirements
 
@@ -108,8 +115,9 @@ python script.py /path/to/source /path/to/destination
    - If metadata is unavailable, falls back to file system timestamps.
 
 3. **Disc Packing Optimization**:
-   - Organizes media files into discs without exceeding the maximum size (default is 23.2 GB).
-   - Prioritizes filling discs to at least 90% capacity.
+   - Organizes media files into discs without exceeding the maximum size
+     - The default packing size targets 23.2 GB, which will safely fill a standard 25 GB BD-R disc.
+   - Prioritizes filling discs to at least 90% capacity, so not to split albums too aggressively
 
 4. **File Processing**:
    - Copies or moves files from the source to the destination discs.
