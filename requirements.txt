@@ -1,0 +1,5 @@
+plaintext
+Pillow
+rawpy
+tqdm
+exiftool
