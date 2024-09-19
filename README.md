@@ -168,6 +168,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 This project is licensed under the MIT License.
 
-I hope this displays correctly now. You can copy the content within the code blocks directly into your `README.md` and `requirements.txt` files.
-
 Let me know if you have any questions or need further assistance!
