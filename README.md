@@ -1,6 +1,7 @@
 # Media Organizer and Gallery Generator
 
 This Python script organizes media files (images and videos) from a source directory into optimized "discs" based on a specified maximum size. It also generates HTML galleries for each disc with features like thumbnail generation, slideshows, and more.
+
 <img src="https://github.com/user-attachments/assets/2ca6d419-5355-4d6c-94f7-6b8efa32fd81" height="300px" />
 ## Features
 
