@@ -896,6 +896,8 @@ def optimize_disc_packing(albums, max_size, min_fill_ratio=0.9):
                                 current_disc.append((album_name, segment_name, small_file_path, small_file_size))
                                 current_size += small_file_size
                                 files.pop(i)
+                                # The larger file still needs a place on a later disc.
+                                files.insert(0, (file_path, file_size))
                                 found_smaller = True
                                 break
                         
