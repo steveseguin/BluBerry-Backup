@@ -342,7 +342,9 @@ def generate_html_gallery(disc_dir):
                         
                         thumb_dir = os.path.join(root, 'thumbs')
                         os.makedirs(thumb_dir, exist_ok=True)
-                        thumb_path = os.path.join(thumb_dir, f"{os.path.splitext(file)[0]}.jpg")
+                        # Include the extension in a bounded, stable thumbnail identity.
+                        thumb_name = hashlib.sha256(file.encode("utf-8")).hexdigest() + ".jpg"
+                        thumb_path = os.path.join(thumb_dir, thumb_name)
                         
                         thumbnail_tasks.append((file_path, thumb_path, (200, 200)))
                         
