@@ -109,7 +109,7 @@ raw_video_extensions = {'.raw'}  # Add any specific RAW video formats here
 raw_image_extensions = {'.orf', '.raw', '.cr2', '.nef', '.arw', '.dng', '.raf', '.rw2', '.pef', '.srw'}
 
 skip_files = {'hash_manifest.json', 'index.html'}
-all_extensions = image_extensions.union(video_extensions).union(raw_video_extensions)
+all_extensions = image_extensions.union(video_extensions).union(raw_video_extensions).union(raw_image_extensions)
 
 def create_manifest_file(directory):
     manifest = defaultdict(list)
